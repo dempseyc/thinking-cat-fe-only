@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="./public/CSS/stylenogrid.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Dawning+of+a+New+Day|La+Belle+Aurore" rel="stylesheet">
+    <title>Thinking Cat</title>
+  </head>
+  <body>
+
+  <!-- front-end only -->
+
+          <div class="main-container">
+              <header><h4>Whiskerton,</h4></header>
+              <div id="display-unit">
+                <div class="message"></div>
+                <div class="room-image">
+                  <img src="public/images/x-size.png" usemap= "#map" style="opacity: 0;" />
+                  <map name="map" id="map">
+
+                  </map>
+                                        <!-- onMouseOver="showChoice('0')"
+                      onMouseOut="showChoice('')"/> -->
+
+                </div> <!-- room-image -->
+                <div class="status"></div>
+                <div class="options"></div>
+
+              </div> <!-- display-unit -->
+
+              <div id="last-link">
+                <form>
+                <input id="cat-data" name="catdata" value="" />
+                <!-- in script.js, always update value of catdata every turn -->
+                  <button><a href="results.html">Results</a></button>
+                </form>
+                <!-- <a href="logout.html">logout</a> -->
+              </div> <!-- last-link -->
+
+          </div> <!-- main container -->
+
+    <script src="./public/JS/jquery.js"></script>
+    <script src="./public/JS/script.js"></script>
+  </body>
+</html>
+
